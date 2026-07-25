@@ -8,7 +8,15 @@ The project brings together multiple frontend and backend modules into a unified
 > For the best experience, set up and open the modules in the sequence described in the **Recommended Run Sequence** section.
 
 ---
+# 🎓 Scholarship Sahayata
 
+Project description...
+
+## 🎥 Project Demonstration
+
+[ Project Demo ]
+▶ Watch Complete Scholarship Sahayata Application and Prototype
+https://www.youtube.com/@Team_AVISAC_SIH_2025_FINALIST
 ## 📌 Project Overview
 
 Scholarship Sahayata aims to make the scholarship process easier and more accessible by providing a centralized platform for:
@@ -25,15 +33,6 @@ Scholarship Sahayata aims to make the scholarship process easier and more access
 The repository combines several applications that work together as part of the complete Scholarship Sahayata ecosystem.
 
 ---
-# 🎓 Scholarship Sahayata
-
-Project description...
-
-## 🎥 Project Demonstration
-
-[ Project Demo ]
-▶ Watch Complete Scholarship Sahayata Demo 
-https://www.youtube.com/@ArtiKumari-cb4ok
 
 # 🏗️ Project Architecture
 
