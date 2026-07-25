@@ -34,7 +34,7 @@ npm install
 ### 2️⃣ Create `.env` in root folder
 PORT=5000
 MONGO_URI=your_mongo_atlas_url_here
-JWT_SECRET=mysupersecretkey
+JWT_SECRET=your_secure_jwt_secret_here
 
 ### 3️⃣ Start Server
 node server.js
@@ -89,14 +89,14 @@ DELETE /api/students/:id
 POST /api/auth/create-admin
 {
   "username": "admin12",
-  "password": "password13"
+  "password": "your_password_here"
 }
 
 ### ➤ Admin Login
 POST /api/auth/login
 {
   "username": "admin12",
-  "password": "password13"
+  "password": "your_password_here"
 }
 
 Returns:
