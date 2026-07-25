@@ -1,0 +1,34 @@
+/* Slider container with transform animation */
+.slidesContainer {
+  display: flex;
+  transition: transform 0.7s ease-out;
+  height: 100%;
+}
+
+.slidesContainer[data-offset="0"] {
+  transform: translateX(0%);
+}
+
+.slidesContainer[data-offset="1"] {
+  transform: translateX(-100%);
+}
+
+.slidesContainer[data-offset="2"] {
+  transform: translateX(-200%);
+}
+
+.slidesContainer[data-offset="3"] {
+  transform: translateX(-300%);
+}
+
+.slidesContainer[data-offset="4"] {
+  transform: translateX(-400%);
+}
+
+.slidesContainer[data-offset="5"] {
+  transform: translateX(-500%);
+}
+
+.slidesContainer[data-offset="6"] {
+  transform: translateX(-600%);
+}

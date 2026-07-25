@@ -1,0 +1,25 @@
+/* Chat window container */
+.chatWindow {
+  height: 600px;
+  max-height: 85vh;
+}
+
+/* Messages container background gradient */
+.messagesContainer {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 153, 51, 0.12) 0%,
+    rgba(255, 255, 255, 1) 40%,
+    rgba(255, 255, 255, 1) 60%,
+    rgba(19, 136, 8, 0.12) 100%
+  );
+}
+
+/* Typing indicator animations */
+.typingDot {
+  animation-delay: 0.2s;
+}
+
+.typingDotThird {
+  animation-delay: 0.4s;
+}

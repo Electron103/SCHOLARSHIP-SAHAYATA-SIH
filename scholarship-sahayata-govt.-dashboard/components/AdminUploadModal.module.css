@@ -1,0 +1,79 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal {
+  width: 460px;
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  margin: 0;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.label {
+  margin-top: 12px;
+  margin-bottom: 4px;
+  font-weight: 600;
+  display: block;
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.textarea {
+  width: 100%;
+  padding: 8px;
+  height: 60px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.button {
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px;
+  background: #6d28d9;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.closeBtn {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  background: #ccc;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.form {
+  margin-top: 10px;
+}

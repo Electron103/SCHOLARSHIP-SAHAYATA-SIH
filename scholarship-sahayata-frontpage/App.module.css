@@ -1,0 +1,5 @@
+/* Main app container with gradient background */
+.appContainer {
+  background: linear-gradient(to right, #FFE3B8, #FFFFFF, #CFF4DA);
+  background-attachment: fixed;
+}

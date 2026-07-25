@@ -1,0 +1,7 @@
+.nb-root { display:flex; gap:10px; align-items:center; }
+.nb-btn {
+  background:#4f46e5;color:#fff;border:none;padding:8px 10px;border-radius:8px;cursor:pointer;
+}
+.nb-info { font-size:13px;color:#666; }
+.nb-info.clicked { color:#16a34a; }
+.nb-env { font-size:11px;color:#999;margin-top:6px; }

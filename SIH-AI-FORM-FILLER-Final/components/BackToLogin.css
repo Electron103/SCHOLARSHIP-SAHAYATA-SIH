@@ -1,0 +1,36 @@
+.back-to-login-wrapper {
+  position: fixed;
+  top: 10px; /* tune if header height differs */
+  left: 12px;
+  z-index: 9999;
+}
+
+.back-to-login-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255,255,255,0.95);
+  border-radius: 8px;
+  padding: 6px 10px;
+  border: 1px solid rgba(200,200,200,0.8);
+  box-shadow: 0 2px 8px rgba(16,24,40,0.06);
+  color: #1f2937; /* gray-800 */
+  font-weight: 500;
+  font-size: 0.875rem; /* text-sm */
+  line-height: 1;
+  text-decoration: none;
+}
+
+.back-to-login-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(255,153,51,0.12); /* saffron-ish ring */
+}
+
+.back-to-login-button:hover {
+  background: rgba(255,255,255,0.98);
+}
+
+.back-to-login-arrow {
+  font-size: 16px;
+  line-height: 1;
+}

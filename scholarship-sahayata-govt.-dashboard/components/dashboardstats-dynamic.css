@@ -1,0 +1,81 @@
+/* DashboardStats specific styles */
+/* These handle dynamic coloring for chart categories */
+
+.chartDiv {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-left: 4px solid currentColor;
+}
+
+/* Color variants for different categories */
+.chartDiv[data-color="red"] {
+  background-color: #fee2e2;
+  color: #dc2626;
+}
+
+.chartDiv[data-color="blue"] {
+  background-color: #dbeafe;
+  color: #2563eb;
+}
+
+.chartDiv[data-color="green"] {
+  background-color: #dcfce7;
+  color: #16a34a;
+}
+
+.chartDiv[data-color="purple"] {
+  background-color: #f3e8ff;
+  color: #9333ea;
+}
+
+.chartDiv[data-color="yellow"] {
+  background-color: #fef3c7;
+  color: #ca8a04;
+}
+
+.chartDiv[data-color="orange"] {
+  background-color: #fed7aa;
+  color: #ea580c;
+}
+
+.chartDiv[data-color="pink"] {
+  background-color: #fbcfe8;
+  color: #ec4899;
+}
+
+.chartDiv[data-color="indigo"] {
+  background-color: #e0e7ff;
+  color: #4f46e5;
+}
+
+.categoryLabel {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: inherit;
+}
+
+.categoryValue {
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: inherit;
+}
+
+/* For the chart container with fixed dimensions */
+.scrollableChartContainer {
+  min-width: 1000px;
+  height: 500px;
+  padding: 1rem;
+  overflow: auto;
+}
+
+/* Chart content wrapper */
+.chartContentWrapper {
+  overflow: auto;
+  max-height: 400px;
+  border: 1px solid #f3f4f6;
+  border-radius: 0.5rem;
+  background-color: rgba(249, 250, 251, 0.5);
+}

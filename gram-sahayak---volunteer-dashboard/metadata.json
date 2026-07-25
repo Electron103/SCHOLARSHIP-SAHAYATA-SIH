@@ -1,0 +1,8 @@
+{
+  "name": "Gram Sahayak - Volunteer Dashboard",
+  "description": "A comprehensive dashboard for Gram Panchayat volunteers to manage government instructions, submit feedback, and track tasks relating to DBT awareness and scholarship verification.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

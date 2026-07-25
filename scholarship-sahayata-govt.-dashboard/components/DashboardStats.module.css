@@ -1,0 +1,22 @@
+.chartContainer {
+  min-width: 1000px;
+  height: 500px;
+  padding: 1rem;
+  overflow: auto;
+}
+
+.categoryItem {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-left: 4px solid var(--category-color, #000);
+  background-color: var(--category-bg, #f9fafb);
+}
+
+.categoryValue {
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: var(--category-color, #000);
+}

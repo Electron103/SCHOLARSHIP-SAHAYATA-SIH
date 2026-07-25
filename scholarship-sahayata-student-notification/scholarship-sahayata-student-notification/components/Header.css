@@ -1,0 +1,16 @@
+.header-back-btn {
+  padding: 8px;
+  border-radius: 9999px;
+  transition: background 0.2s ease-in-out;
+}
+
+.header-back-btn:hover {
+  background: #f3f4f6; /* hover:bg-gray-100 */
+}
+
+.header-back-btn svg {
+  width: 28px;
+  height: 28px;
+  stroke-width: 2.5;
+  color: #374151; /* same gray as login */
+}
