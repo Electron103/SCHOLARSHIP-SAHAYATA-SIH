@@ -8,9 +8,6 @@ The project brings together multiple frontend and backend modules into a unified
 > For the best experience, set up and open the modules in the sequence described in the **Recommended Run Sequence** section.
 
 ---
-# 🎓 Scholarship Sahayata
-
-Project description...
 
 ## 🎥 Project Demonstration
 
