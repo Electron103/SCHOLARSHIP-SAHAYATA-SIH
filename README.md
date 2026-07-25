@@ -25,6 +25,15 @@ Scholarship Sahayata aims to make the scholarship process easier and more access
 The repository combines several applications that work together as part of the complete Scholarship Sahayata ecosystem.
 
 ---
+# 🎓 Scholarship Sahayata
+
+Project description...
+
+## 🎥 Project Demonstration
+
+[ Project Demo ]
+▶ Watch Complete Scholarship Sahayata Demo 
+https://www.youtube.com/@ArtiKumari-cb4ok
 
 # 🏗️ Project Architecture
 
