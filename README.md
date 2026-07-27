@@ -9,12 +9,11 @@ The project brings together multiple frontend and backend modules into a unified
 
 ---
 
-## 🎥 Project Demonstration
+## Project Demonstration
 
-[ Project Demo ]
 ▶ Watch Complete Scholarship Sahayata Application and Prototype
 https://www.youtube.com/@Team_AVISAC_SIH_2025_FINALIST
-## 📌 Project Overview
+## Project Overview
 
 Scholarship Sahayata aims to make the scholarship process easier and more accessible by providing a centralized platform for:
 
@@ -31,7 +30,7 @@ The repository combines several applications that work together as part of the c
 
 ---
 
-# 🏗️ Project Architecture
+# Project Architecture
 
 The repository contains the following major modules:
 
@@ -59,9 +58,9 @@ SCHOLARSHIP-SAHAYATA-SIH/
 
 ---
 
-# ✨ Main Modules
+# Main Modules
 
-## 1. 🗄️ Student Backend
+## 1. Student Backend
 
 The **Student Backend** acts as the central backend service for student-related functionality.
 
@@ -86,7 +85,7 @@ The **Student Backend** acts as the central backend service for student-related 
 
 ---
 
-## 2. 🏛️ Scholarship Sahayata Government Dashboard
+## 2. Scholarship Sahayata Government Dashboard
 
 The Government Dashboard provides an interface for authorized officials to manage and monitor scholarship-related activities.
 
@@ -103,7 +102,7 @@ The dashboard communicates with backend services to exchange information with ot
 
 ---
 
-## 3. 🔔 Student Notification System
+## 3. Student Notification System
 
 The Student Notification System provides scholarship-related updates and announcements to students.
 
@@ -120,7 +119,7 @@ Notifications generated from the administrative side can be delivered to the stu
 
 ---
 
-## 4. 🤖 SIH AI Form Filler
+## 4. SIH AI Form Filler
 
 The **AI Form Filler** helps reduce the manual effort involved in filling scholarship application forms.
 
@@ -147,7 +146,7 @@ The AI Form Filler consists of a separate frontend and backend service.
 
 ---
 
-## 5. 🔐 Scholarship Sahayata Login Page
+## 5. Scholarship Sahayata Login Page
 
 The Login Page serves as the authentication gateway for different users of the Scholarship Sahayata platform.
 
@@ -170,7 +169,7 @@ After authentication, users can access functionality according to their role.
 
 ---
 
-## 6. 🌐 Scholarship Sahayata Front Page
+## 6. Scholarship Sahayata Front Page
 
 The Front Page acts as the main landing interface for Scholarship Sahayata.
 
@@ -188,7 +187,7 @@ This should be the **first page users interact with after all required services 
 
 ---
 
-## 7. 🤝 Gram Sahayak Volunteer Dashboard
+## 7. Gram Sahayak Volunteer Dashboard
 
 The Gram Sahayak Volunteer Dashboard is designed for volunteers who help students access and complete scholarship services.
 
@@ -202,7 +201,7 @@ The Gram Sahayak Volunteer Dashboard is designed for volunteers who help student
 
 ---
 
-# 🔄 Recommended Run Sequence
+# Recommended Run Sequence
 
 Because Scholarship Sahayata consists of multiple interconnected frontend and backend modules, start the project components in the exact sequence below.
 
@@ -416,7 +415,7 @@ This dashboard is intended for Gram Sahayak volunteers assisting students.
 
 ---
 
-## 🚀 Complete Startup Sequence
+## Complete Startup Sequence
 
 ```text
 Student Backend
@@ -444,7 +443,7 @@ Once setup is complete, use the **Scholarship Sahayata Front Page** as the main 
 
 ---
 
-# 🚀 User Navigation Sequence
+# User Navigation Sequence
 
 The startup order above describes how developers should launch the services. The user-facing flow begins only after the required services are running.
 
@@ -515,7 +514,7 @@ Students can receive important scholarship updates, deadlines, and administrativ
 
 ---
 
-# 💻 Technology Stack
+# Technology Stack
 
 ### Frontend
 
@@ -560,7 +559,7 @@ Students can receive important scholarship updates, deadlines, and administrativ
 
 ---
 
-# 📋 Prerequisites
+# Prerequisites
 
 Before running the complete project, install:
 
@@ -585,7 +584,7 @@ git lfs version
 
 ---
 
-# 📥 Installation
+# Installation
 
 Clone the repository:
 
@@ -615,7 +614,7 @@ Then follow the **Recommended Run Sequence** above.
 
 ---
 
-# 🔐 Environment Variables
+# Environment Variables
 
 Some modules require environment variables for database connections, authentication, APIs, or other services.
 
@@ -635,7 +634,7 @@ Example configuration should contain placeholders only.
 
 ---
 
-# 📦 Git LFS
+# Git LFS
 
 This repository uses **Git Large File Storage (Git LFS)** for large media files such as MP4 videos.
 
@@ -654,7 +653,7 @@ git lfs ls-files
 
 ---
 
-# 🔒 Security
+# Security
 
 When contributing to this project:
 
@@ -669,7 +668,7 @@ When contributing to this project:
 
 ---
 
-# 🎯 Project Objective
+# Project Objective
 
 Scholarship Sahayata aims to reduce the complexity students face while accessing scholarship services.
 
@@ -677,7 +676,7 @@ By combining scholarship information, authentication, AI-assisted form filling, 
 
 ---
 
-# 🤝 Contributing
+# Contributing
 
 Contributions are welcome.
 
@@ -699,15 +698,7 @@ git commit -m "Add new feature"
 git push origin feature/new-feature
 ```
 
----
-
-# 📄 License
-
-Add the appropriate license for this project before redistribution or production use.
-
----
-
-# 👨‍💻 Project Status
+# Project Status
 
 This project was developed as part of a scholarship assistance solution and contains multiple modules that demonstrate an integrated workflow involving students, government officials, volunteers, AI-based document processing, and scholarship communication.
 
